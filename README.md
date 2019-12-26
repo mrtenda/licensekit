@@ -8,6 +8,9 @@ Made with [html2canvas](https://github.com/niklasvh/html2canvas/).
 
 ### Example Output Images
 
+![Example Page 1](https://user-images.githubusercontent.com/1281326/71454049-aecd1c00-2786-11ea-8a65-6a3d29842e40.png)
+![Example Page 2](https://user-images.githubusercontent.com/1281326/71454052-affe4900-2786-11ea-821f-27bf91d86905.png)
+
 ### Instructions
 
 1. Download or [git clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) the repository to your computer.
