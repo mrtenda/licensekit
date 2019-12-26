@@ -1,0 +1,6 @@
+- name: ABC Library
+  license: example-mit.txt
+- name: XYZ Pixel Graphics Pack
+  license: example-apache2.txt
+- name: Cool Font
+  license: example-ofl.txt
