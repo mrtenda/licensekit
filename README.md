@@ -10,8 +10,8 @@ Made with [html2canvas](https://github.com/niklasvh/html2canvas/) and jQuery.
 
 ### Example Output Images
 
-![Example Page 1](https://user-images.githubusercontent.com/1281326/71454049-aecd1c00-2786-11ea-8a65-6a3d29842e40.png)
-![Example Page 2](https://user-images.githubusercontent.com/1281326/71454052-affe4900-2786-11ea-821f-27bf91d86905.png)
+![Example Page 1](https://user-images.githubusercontent.com/1281326/72651951-096c2900-397d-11ea-894d-d4915369a4d9.png)
+![Example Page 2](https://user-images.githubusercontent.com/1281326/72651955-0a9d5600-397d-11ea-92f5-545c3dbcc1ea.png)
 
 ### Instructions
 
