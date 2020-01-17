@@ -17,7 +17,7 @@ Made with [html2canvas](https://github.com/niklasvh/html2canvas/) and jQuery.
 
 1. Download or [git clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) the repository to your computer.
 2. Open a terminal and `cd` to the directory where the code is.
-3. Generate the website using Jekyll. The most foolproof way to do this would be to install Docker, then run the command below:
+3. Generate the website using Jekyll. The most foolproof way to do this would be to install [Docker](https://www.docker.com/), then run the command below:
     - On OS X: 
     
       ```docker run --rm --label=jekyll --volume=`pwd`:/srv/jekyll -it jekyll/jekyll jekyll b```
@@ -31,15 +31,17 @@ Made with [html2canvas](https://github.com/niklasvh/html2canvas/) and jQuery.
 
 Now that you've gotten everything running with example data, the next step is to put in the actual data you want.
 1. Add each license as a `.txt` file in the `_includes/licenses` directory. You can delete the example ones in there.
-2. Open `_data/licenses.yml` in a text editor and follow the format in there to point to your license files.
-3. Open `_data/sounds.yml` in a text editor and add any sound effects you'd like to attribute.
+1. Open `_data/licenses.yml` in a text editor and follow the format in there to point to your license files.
+1. Open `_data/sounds.yml` in a text editor and replace the data with any sound effects you'd like to attribute.
    - If you don't want to include any attributions for sound effects, just delete the contents of this file.
-4. Repeat step 3-5 in the first list above to re-generate the website and images.
-5. Adjust the parameters at the top of the page as needed. Be sure that the "Pages" value is high enough to show all of your licenses.
+1. Open `_data/disclaimers.yml` in a text editor and replace the data with any disclaimers you want to include at the end.
+    - If you don't want to include any disclaimers, just delete the contents of this file.
+1. Repeat step 3-5 in the first list above to re-generate the website and images.
+1. Adjust the parameters at the top of the page as needed. Be sure that the "Pages" value is high enough to show all of your licenses.
 
 ### Customization
 
-You can customize the visuals and text as much as you like by editing the following files:
+You can customize the visuals and text as much as you like by editing the following files, and the repeating steps 3-5 in the first list in the Instructions section:
 - `index.md`
 - `static/css/style.css`
 

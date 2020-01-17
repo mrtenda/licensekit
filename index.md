@@ -52,12 +52,21 @@ Below is a list of attributions for sounds which were used or referenced in the 
 {% for sfx in site.data.sounds %}
 {{sfx.name}}
 - Author: {{sfx.author}}
-- License: {{sfx.license}}
 - URL: {{sfx.url}}
+- License: {{sfx.license}}{% if sfx.license-url != "" and sfx.license-url != nil %}
+- License URL: {{sfx.license-url}}{% endif %}
 {% endfor %}
 </pre>
 {% endif %}
 
+{% if site.data.disclaimers.size > 0 %}
+<hr>
+{% for disclaimer in site.data.disclaimers %}
+<pre>
+{{disclaimer}}
+</pre>
+{% endfor %}
+{% endif %}
 
 </div>
 
