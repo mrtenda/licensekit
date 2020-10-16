@@ -59,6 +59,19 @@ Below is a list of attributions for sounds which were used or referenced in the 
 </pre>
 {% endif %}
 
+{% if site.data.othermedia.size > 0 %}
+<hr>
+<h2>Other Media Attributions</h2>
+<pre>{% for item in site.data.othermedia %}
+{{item.name}}
+- URL: {{item.url}}
+- Author: {{item.author}}
+- License: {{item.license}}{% if item.license-url != "" and item.license-url != nil %}
+- License URL: {{item.license-url}}{% endif %}
+{% endfor %}
+</pre>
+{% endif %}
+
 {% if site.data.disclaimers.size > 0 %}
 <hr>
 {% for disclaimer in site.data.disclaimers %}
